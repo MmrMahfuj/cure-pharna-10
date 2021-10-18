@@ -1,0 +1,39 @@
+body{
+    /* overflow-x: hidden; */
+}
+.custom-footer{
+    background-color: #253750;
+    overflow-x: hidden;
+    
+}
+.custom-footer-title{
+}
+.footer-text{
+    color: rgb(182, 176, 176);
+    
+}
+.custom-icon{
+    color: rgb(226, 203, 203);
+    padding: 3px 5px;
+    border: 1px solid rgb(182, 176, 176);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.footer-main{
+    background-color: #384b64;
+    overflow: hidden;
+}
+.copyright-color{
+   color: rgb(182, 176, 176);
+}
+.footer-titles{
+    color: rgb(231, 224, 224);
+}
+.footer-nav-link{
+    color: rgb(182, 176, 176) !important;
+    line-height: 15px !important;
+}
+.footer-nav-link:hover{
+    color: tomato !important;
+}

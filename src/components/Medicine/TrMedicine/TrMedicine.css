@@ -4,4 +4,8 @@
 .regular-custom-btn:hover{
     background-color: #82B440;
 }
+.regular-custom-btn:focus{
+    background-color: #82B440;
+
+}
 

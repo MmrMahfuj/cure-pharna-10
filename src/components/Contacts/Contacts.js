@@ -1,6 +1,7 @@
 import React from 'react';
 import { Button, Col, Container, Row } from 'react-bootstrap';
 import './Contacts.css';
+import contactImg from '../../images/contact.png';
 
 const Contacts = () => {
     return (
@@ -34,23 +35,29 @@ const Contacts = () => {
                 </Row>
             </Container>
             <Container className="pt-5">
-                <div>
-                    <h1 className="contact-title-email">Have a <span id="logo">Question</span>?<br />
-                        Drop a <span id="logo">Line</span>!
-                    </h1>
-                </div>
-                <div className="mt-4">
-                    <div className="d-flex align-items-center justify-content-center">
-                        <input type="text" placeholder="Name" className="p-3 w-25 m-2 rounded-pill custom-contact-border" />
-                        <input type="email" name="" placeholder="Email" id="" className="p-3 w-25 m-2 rounded-pill custom-contact-border" />
-                    </div>
-                    <div className="mt-3">
-                        <textarea name="" placeholder="Message" id="" cols="80" rows="20" className="rounded-3 p-3 custom-contact-border"></textarea>
-                    </div>
-                </div>
-                <div className="mt-3">
-                    <Button className="w-25 rounded-pill p-3 regular-custom-btn">SEND YOUR MESSAGE</Button>
-                </div>
+                <Row>
+                    <Col md={6}>
+                        <div>
+                            <h1 className="contact-title-email">Have a <span id="logo">Question ?</span><br />
+                                Drop a <span id="logo">Line !</span>
+                            </h1>
+                        </div>
+                        <div className="d-flex align-items-center justify-content-center mt-3">
+                            <input type="text" placeholder="Name" className="p-3 w-50 m-2 rounded-pill custom-contact-border" />
+                            <input type="email" name="" placeholder="Email" id="" className="p-3 w-50 m-2 rounded-pill custom-contact-border" />
+                        </div>
+                        <div className="mt-3">
+                            <textarea name="" placeholder="Message" id="" cols="35" rows="10" className="rounded-3 p-3 custom-contact-border w-100"></textarea>
+                        </div>
+                        <Button className="w-50 mt-3 rounded-pill p-3 regular-custom-btn">SEND YOUR MESSAGE</Button>
+
+                    </Col>
+                    <Col md={6}>
+                        <div className="mt-2">
+                            <img src={contactImg} className="img-fluid" alt="" />
+                        </div>
+                    </Col>
+                </Row>
             </Container>
         </>
     );

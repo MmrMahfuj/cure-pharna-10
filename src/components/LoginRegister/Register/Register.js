@@ -1,10 +1,68 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Col, Row, Button, Container } from 'react-bootstrap';
-import { Link } from 'react-router-dom';
+import { Link, useLocation, useHistory } from 'react-router-dom';
 import registerImg from '../../../images/register.png';
+import useAuth from '../../hooks/useAuth';
 import './Register.css';
 
 const Register = () => {
+    const { signInUsingGoogle, registerEmailAndPassword, error, setError, setName, setUser, setIsLoading, userName } = useAuth();
+
+    const location = useLocation();
+    const history = useHistory();
+    const redirect_uri = location.state?.from || '/home';
+
+
+    const [email, setEmail] = useState('');
+    const [password, setPassword] = useState('');
+
+
+    const handleNameChange = e => {
+        setName(e.target.value);
+    }
+
+    const handleEmailChange = (e) => {
+        setEmail(e.target.value);
+    }
+
+    const handlePasswordChange = e => {
+        setPassword(e.target.value);
+    }
+
+    const handleRegistration = e => {
+        e.preventDefault();
+        if (password.length < 6) {
+            setError("Password must be at least 6 characters long")
+            return;
+        };
+
+        registerEmailAndPassword(email, password)
+            .then(result => {
+                setUser(result.user);
+                console.log(result.user);
+                setError('');
+                userName();
+                history.push(redirect_uri)
+            })
+            .catch((error) => {
+                setError(error.message);
+            })
+    }
+
+
+    const handleGoogleLogin = () => {
+        signInUsingGoogle()
+            .then(result => {
+                setUser(result.user)
+                setError('')
+                history.push(redirect_uri)
+            })
+            .catch((error) => {
+                setError(error.message);
+            })
+            .finally(() => setIsLoading(false));
+    }
+
     return (
         <>
             <Container>
@@ -12,19 +70,20 @@ const Register = () => {
                     <Col md={6}>
                         <div className="container-lg m-5 mx-auto">
                             <div className="login mx-auto p-3">
-                                <h3>Please Register</h3>
-                                <input className="m-2 p-2 w-75" type="email" name="" id="" placeholder="Your Email" required /><br />
-                                <input className="m-2 p-2 w-75" type="password" name="" id="" placeholder="Your Password" required /><br />
-                                <div className="d-flex justify-content-around mt-2">
-                                    <span>
-                                        <input type="checkbox" name="" id="" className="m-1 text-start" />
-                                        <label htmlFor="vehicle2"> Remember Me</label>
-                                    </span>
-                                    <span></span>
-                                </div>
-                                <br />
+                                <form onSubmit={handleRegistration}>
+                                    <h3 className="mb-5 custom-auth-title">Please <span className="title-variant">Register</span></h3>
+                                    <input onBlur={handleNameChange} required className="m-2 p-2 w-75" type="text" name="" id="name" placeholder="Your Name" /><br />
 
-                                <Button className="w-75 btn-regular">Register</Button><br />
+                                    <input onBlur={handleEmailChange} required className="m-2 p-2 w-75" type="email" name="" id="email" placeholder="Your Email" /><br />
+
+                                    <input onBlur={handlePasswordChange} required className="m-2 p-2 w-75" type="password" name="" id="password" placeholder="Your Password" /><br />
+                                    <p className="text-danger mt-2">{error}</p>
+                                    <br />
+
+                                    <input className="w-75 regular-custom-btn p-2 rounded text-white" type="submit" value="Register" />
+
+
+                                </form>
 
                                 <p className="mt-2">I have an account? <Link to="/login">Login</Link></p>
                             </div>
@@ -32,8 +91,7 @@ const Register = () => {
                         </div>
                         <div>--------------------------- or -----------------------------</div>
                         <div className="login-another mx-auto mb-4">
-                            <Button className="w-50 rounded-pill" >Google Sign In</Button><br />
-                            <Button className="w-50 rounded-pill mt-2" >Facebook Sign In</Button>
+                            <Button onClick={handleGoogleLogin} className="w-50 rounded-pill regular-custom-btn" >Google Sign In</Button>
                         </div>
                     </Col>
                     <Col className="align-self-center"><img src={registerImg} alt="" className="img-fluid" /></Col>

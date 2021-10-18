@@ -10,3 +10,11 @@
 .login-another{
     display: block;
 }
+.custom-auth-title{
+    color: #253750;
+    font-size: 40px;
+    font-weight: 600;
+}
+.title-variant{
+    color: #3F8810;
+}

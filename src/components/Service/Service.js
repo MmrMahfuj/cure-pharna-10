@@ -1,5 +1,6 @@
 import React from 'react';
 import { Col } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 import './Service.css';
 
 const Service = (props) => {
@@ -14,6 +15,7 @@ const Service = (props) => {
                     <div>
                         <h5 className="my-2 services-title">{title}</h5>
                         <p>{des.slice(0, 80)}</p>
+                        <Link to="/details">Details</Link>
                     </div>
                 </div>
             </Col>

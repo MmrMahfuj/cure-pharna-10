@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { Button, Col, Container, Row } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 import Service from '../Service/Service';
 import './Home.css';
 
@@ -22,8 +23,8 @@ const Home = () => {
                                 <p className="text-white">Weclome to Cure Pharma</p>
                                 <h1 className="text-white custom-banner-title">A better way <br /> for medicine</h1>
                                 <h5 className="text-white fw-bold mt-3">Erat fringilla donec ligula magnis nulla<br /> consectetuer justo dolor</h5>
-                                <Button className="custom-banner-btn me-2">services</Button>
-                                <Button className="custom-banner-btn" id="btn-banner">Medicine</Button>
+                                <Link to="/services"><Button className="custom-banner-btn me-2">SERVICES</Button></Link>
+                                <Link to="/medicine"><Button className="custom-banner-btn" id="btn-banner">MADICINE</Button></Link>
                             </div>
                         </Container>
                     </Col>
