@@ -1,0 +1,17 @@
+
+.custom-contact-header{
+    background-color: #82B440;
+}
+hr.contact{
+    border-top: 3px solid #253750;
+    
+}
+
+.contact-title-email{
+    color:#253750 ;
+    font-size: 48px;
+    font-weight: 400;
+}
+.custom-contact-border{
+    border: 1px solid gray;
+}

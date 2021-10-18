@@ -1,0 +1,44 @@
+[
+    {
+        "img": "https://assignment-10-img.netlify.app/images/me-1.jpg",
+        "title": "Siro Lorastad Sp",
+        "price": "84",
+        "id": "1"
+    },
+    {
+        "img": "https://assignment-10-img.netlify.app/images/me-2.jpg",
+        "title": "Organika Salmon Collagen",
+        "price": "74",
+        "id": "2"
+    },
+    {
+        "img": "https://assignment-10-img.netlify.app/images/me-3.jpg",
+        "title": "Oral Irrigator Electric",
+        "price": "103",
+        "id": "3"
+    },
+    {
+        "img": "https://assignment-10-img.netlify.app/images/me-4.jpg",
+        "title": "Alvedon® Film-coated tablet",
+        "price": "90",
+        "id": "4"
+    },
+    {
+        "img": "https://assignment-10-img.netlify.app/images/me-5.jpg",
+        "title": "Online ONly Triple Oxygen",
+        "price": "115",
+        "id": "5"
+    },
+    {
+        "img": "https://assignment-10-img.netlify.app/images/me-6.jpg",
+        "title": "Nutrilite Memory Builder Dietary",
+        "price": "137",
+        "id": "6"
+    },
+    {
+        "img": "https://assignment-10-img.netlify.app/images/me-7.jpg",
+        "title": "Waterpik WP-100 - Dental Care",
+        "price": "82",
+        "id": "7"
+    }
+]

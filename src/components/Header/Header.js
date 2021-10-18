@@ -17,7 +17,7 @@ const Header = () => {
                             <Nav.Link className="custom-style-link fs-5" as={Link} to="/medicine">Medicine</Nav.Link>
                             <Nav.Link className="custom-style-link fs-5" as={Link} to="/services">Services</Nav.Link>
                             <Nav.Link className="custom-style-link fs-5" as={Link} to="/blogs">Blog</Nav.Link>
-                            <Nav.Link className="custom-style-link fs-5" as={Link} to="/contact">Contact Us</Nav.Link>
+                            <Nav.Link className="custom-style-link fs-5" as={Link} to="/contacts">Contact Us</Nav.Link>
                             <Nav.Link className="custom-style-link fs-5" as={Link} to="/about">About Us</Nav.Link>
 
                         </Nav>
