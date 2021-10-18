@@ -1,0 +1,12 @@
+.login{
+    border: 1px solid gray;
+    display: block;
+}
+.login input{
+    border: none;
+    border-bottom: 1px solid gray;
+    outline: none;
+}
+.login-another{
+    display: block;
+}

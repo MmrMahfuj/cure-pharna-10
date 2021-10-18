@@ -1,0 +1,38 @@
+[
+    {
+        "img": "https://assignment-10-img.netlify.app/images/ser-1.jpg",
+        "title": "Become a Member",
+        "des": "Annual Membership plans alow us to help you manage your health better. We include a health check and ongoing monitoring of you and your family's health,and  are tailored to your needs.  *Access to unlimited family and specialist doctors. *Enjoy 25% flat discount on all additional services.*Comprehensive, personalized care every steps of the way.",
+        "id": "1"
+    },
+    {
+        "img": "https://assignment-10-img.netlify.app/images/ser-2.png",
+        "title": "Online doctor",
+        "des": "Get the prescription you need from the comfort of your home.Our experienced doctors are waiting for you.Descreet, quality telehealth visit at your fingertips. So,book your online appointment at just $10!!!",
+        "id": "2"
+    },
+    {
+        "img": "https://assignment-10-img.netlify.app/images/ser-3.jpg",
+        "title": "Covid 19 vaccination",
+        "des": "Give your body with the protection.It needs to stay well at home and while increasing number of covid cases.Help protect yourself and others around you. Stop just 10 seconds to access a wide variety of vaccines that you or your family members might need!",
+        "id": "3"
+    },
+    {
+        "img": "https://assignment-10-img.netlify.app/images/ser-4.png",
+        "title": "Refer your friends!",
+        "des": "The greatest compliment we receive is a referred from our customer.We would like thank you for your trust in 'Cure Pharma' with our new referral  program. You can get up to $15 discount by referring your friends,reletives,colleagues or neighbours!",
+        "id": "4"
+    },
+    {
+        "img": "https://assignment-10-img.netlify.app/images/ser-5.jpg",
+        "title": "Health Insurance",
+        "des": "Our individual plans provide benifits toward the cost of prescription drugs.Express scripts is the pharmacy manager for all our special insurances. Our eligible health insurance plans give access to virtual health care free of charge. * Talk to a doctor online. *Receive a personalized care plan. *Renew prescriptions. These all you’ll get from the comfort of your own home! To know more,have a conversation with our Insurance specialist",
+        "id": "5"
+    },
+    {
+        "img": "https://assignment-10-img.netlify.app/images/ser-6.jpg",
+        "title": "Subscription for newsletter",
+        "des": "Join the thousands of pharmaceutical professionals who count drug daily bulletin each morning for the latest news and information on FDA regulatory.  Be the first to read about late- breaking drug break throughs  and approvals.Within matter of seconds,scan daily drug bulletin to see the days top headlines. You can get it only just $5 a month!!",
+        "id": "6"
+    }
+]

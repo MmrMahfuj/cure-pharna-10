@@ -1,0 +1,15 @@
+.custom-title{
+    color: #253750 !important;
+}
+#logo{
+    color: #91C73E;
+}
+.custom-style-link{
+    color: #253750 !important;
+}
+.custom-style-link:hover{
+    color: #82B440 !important;
+}
+.custom-style-link:focus{
+    color: #82B440 !important;
+}
