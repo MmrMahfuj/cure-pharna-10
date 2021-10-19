@@ -101,7 +101,7 @@ const Home = () => {
                                             <h3>20 Years of Experience</h3>
                                         </div>
                                         <div className="mt-3">
-                                            <h5>DR. Mahfujur Rahman</h5>
+                                            <h5>DR. Khan Amir Chowdhury</h5>
                                             <p>(Chairman & Founder)</p>
                                         </div>
                                     </Col>

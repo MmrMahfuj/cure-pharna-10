@@ -15,7 +15,7 @@ const TrMedicine = (props) => {
                         <h6 className="my-2 services-title">{title.slice(0, 25)}</h6>
                         <p className="services-title">${price}</p>
                     </div>
-                    <Button className="regular-custom-btn">Add To Cart</Button>
+                    <Button className="regular-custom-btn">Buy Now</Button>
                 </div>
             </Col>
         </>

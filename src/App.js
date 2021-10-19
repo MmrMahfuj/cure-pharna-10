@@ -15,6 +15,7 @@ import Footer from './components/Footer/Footer';
 import AuthProvider from './contexts/AuthProvider';
 import PrivateRoute from './components/PrivateRoute/PrivateRoute';
 import Details from './components/Details/Details';
+import DetailBlog from './components/DetailBlog/DetailBlog';
 
 function App() {
   return (
@@ -29,9 +30,9 @@ function App() {
             <Route path="/home">
               <Home></Home>
             </Route>
-            <Route path="/medicine">
+            <PrivateRoute path="/medicine">
               <Medicine></Medicine>
-            </Route>
+            </PrivateRoute>
             <PrivateRoute path="/services">
               <Services></Services>
             </PrivateRoute>
@@ -40,6 +41,9 @@ function App() {
             </PrivateRoute>
             <Route path="/blogs">
               <Blogs></Blogs>
+            </Route>
+            <Route path="/detailBlog/:id">
+              <DetailBlog></DetailBlog>
             </Route>
             <Route path="/contacts">
               <Contacts></Contacts>

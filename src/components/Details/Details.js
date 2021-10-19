@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { Container } from 'react-bootstrap';
+import { Button, Container } from 'react-bootstrap';
 import { useParams } from 'react-router';
 
 const Details = () => {
@@ -24,6 +24,9 @@ const Details = () => {
                         <img src={currentServices.img} className="w-100" alt="" />
                         <h4 className="my-3">{currentServices.title}</h4>
                         <p className="custom-about-para">{currentServices.des}</p>
+                        <div>
+                            <Button className="regular-custom-btn">Subscription Now</Button>
+                        </div>
                     </div>
                 </Container>
             </div>

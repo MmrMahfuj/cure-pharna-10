@@ -1,16 +1,24 @@
 import React, { useEffect, useState } from 'react';
-import { Col, Container, Row } from 'react-bootstrap';
+import { Container, Row } from 'react-bootstrap';
 import TrMedicine from './TrMedicine/TrMedicine';
 import './Medicine.css';
 
 const Medicine = () => {
     const [trMedicines, setTrMedicines] = useState([]);
+    const [reMedicines, setReMedicines] = useState([]);
 
     useEffect(() => {
         fetch('./trandingmedicine.json')
             .then(res => res.json())
             .then(data => setTrMedicines(data))
     }, [])
+
+    useEffect(() => {
+        fetch('./regularmedicine.json')
+            .then(res => res.json())
+            .then(data => setReMedicines(data))
+    }, [])
+
     return (
         <>
             <Container>
@@ -26,6 +34,14 @@ const Medicine = () => {
                         trMedicines.map(trMedicine => <TrMedicine key={trMedicine.id} trMedicine={trMedicine}></TrMedicine>)
                     }
 
+                </Row>
+            </Container>
+            <Container className="mt-5">
+                <h2 className="services-title text-start">Regular <span id="logo">Medicine</span></h2>
+                <Row>
+                    {
+                        reMedicines.map(trMedicine => <TrMedicine key={trMedicine.id} trMedicine={trMedicine}></TrMedicine>)
+                    }
                 </Row>
             </Container>
 

@@ -1,0 +1,80 @@
+[
+    {
+        "img": "https://assignment-10-img.netlify.app/images/me-8.png",
+        "title": "Amoxicillin 250mg",
+        "price": "3.51",
+        "id": "8"
+    },
+    {
+        "img": "https://assignment-10-img.netlify.app/images/me-9.jpg",
+        "title": "Ampicillin 250mg",
+        "price": "3.25",
+        "id": "9"
+    },
+    {
+        "img": "https://assignment-10-img.netlify.app/images/me-10.jpg",
+        "title": "Naproxin 250mg",
+        "price": "10",
+        "id": "10"
+    },
+    {
+        "img": "https://assignment-10-img.netlify.app/images/me-11.jpg",
+        "title": "Benzathine Penicillin ",
+        "price": "24.21",
+        "id": "11"
+    },
+    {
+        "img": "https://assignment-10-img.netlify.app/images/me-12.jpg",
+        "title": "Flucloxacillin 250mg",
+        "price": "10",
+        "id": "12"
+    },
+    {
+        "img": "https://assignment-10-img.netlify.app/images/me-13.jpg",
+        "title": "Procaine Penicillin",
+        "price": "10",
+        "id": "13"
+    },
+    {
+        "img": "https://assignment-10-img.netlify.app/images/me-14.jpg",
+        "title": "Cephradine 250mg",
+        "price": "6.65",
+        "id": "14"
+    },
+    {
+        "img": "https://assignment-10-img.netlify.app/images/me-15.jpg",
+        "title": "Cephalexin 250mg",
+        "price": "6.5",
+        "id": "15"
+    },
+    {
+        "img": "https://assignment-10-img.netlify.app/images/me-16.jpg",
+        "title": "Benzyl Penicillin",
+        "price": "8.76",
+        "id": "16"
+    },
+    {
+        "img": "https://assignment-10-img.netlify.app/images/me-17.jpg",
+        "title": "Cloxacillin 500mg",
+        "price": "5.95",
+        "id": "17"
+    },
+    {
+        "img": "https://assignment-10-img.netlify.app/images/me-18.jpg",
+        "title": "Amoxiclav 125mg",
+        "price": "20",
+        "id": "18"
+    },
+    {
+        "img": "https://assignment-10-img.netlify.app/images/me-19.jpg",
+        "title": "Erythromycin 250mg",
+        "price": "4.82",
+        "id": "19"
+    },
+    {
+        "img": "https://assignment-10-img.netlify.app/images/me-20.jpg",
+        "title": "Erythromycin 250mg",
+        "price": "2.06",
+        "id": "20"
+    }
+]
