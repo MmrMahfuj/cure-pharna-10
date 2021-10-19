@@ -15,7 +15,7 @@ const Service = (props) => {
                     <div>
                         <h5 className="my-2 services-title">{title}</h5>
                         <p>{des.slice(0, 80)}</p>
-                        <Link to="/details">Details</Link>
+                        <Link to={`/Details/${id}`}>Details</Link>
                     </div>
                 </div>
             </Col>

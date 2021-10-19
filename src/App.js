@@ -14,6 +14,7 @@ import Services from './components/Services/Services';
 import Footer from './components/Footer/Footer';
 import AuthProvider from './contexts/AuthProvider';
 import PrivateRoute from './components/PrivateRoute/PrivateRoute';
+import Details from './components/Details/Details';
 
 function App() {
   return (
@@ -33,6 +34,9 @@ function App() {
             </Route>
             <PrivateRoute path="/services">
               <Services></Services>
+            </PrivateRoute>
+            <PrivateRoute path="/Details/:serviceId">
+              <Details></Details>
             </PrivateRoute>
             <Route path="/blogs">
               <Blogs></Blogs>

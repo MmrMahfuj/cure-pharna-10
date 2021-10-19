@@ -20,11 +20,11 @@ const Home = () => {
                     <Col md={6} className="pt-md-5">
                         <Container className="d-flex align-items-center justify-content-center">
                             <div className="mt-md-5">
-                                <p className="text-white">Weclome to Cure Pharma</p>
+                                <p className="text-white">Welcome to Cure Pharma</p>
                                 <h1 className="text-white custom-banner-title">A better way <br /> for medicine</h1>
-                                <h5 className="text-white fw-bold mt-3">Erat fringilla donec ligula magnis nulla<br /> consectetuer justo dolor</h5>
+                                <h5 className="text-white fw-bold mt-3">Erat fringilla donec ligula magnis nulla<br /> consectetuer just to dolor</h5>
                                 <Link to="/services"><Button className="custom-banner-btn me-2">SERVICES</Button></Link>
-                                <Link to="/medicine"><Button className="custom-banner-btn" id="btn-banner">MADICINE</Button></Link>
+                                <Link to="/medicine"><Button className="custom-banner-btn" id="btn-banner">MEDICINE</Button></Link>
                             </div>
                         </Container>
                     </Col>
