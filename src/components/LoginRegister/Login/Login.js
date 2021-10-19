@@ -35,6 +35,7 @@ const Login = () => {
             .catch((error) => {
                 setError(error.message);
             })
+            .finally(() => setIsLoading(false));
     }
 
     const handleGoogleLogin = () => {
