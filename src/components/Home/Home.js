@@ -90,8 +90,8 @@ const Home = () => {
                 <Container className="mt-5 pt-5">
                     <Row>
                         <Col md={6}>
-                            <div>
-                                <img src={experienceImg} className="img-fluid" alt="" />
+                            <div className="h-100">
+                                <img src={experienceImg} className="h-100 w-100" alt="" />
                             </div>
                         </Col>
                         <Col md={6}>
@@ -104,7 +104,7 @@ const Home = () => {
                                             <h3>20 Years of Experience</h3>
                                         </div>
                                         <div className="mt-3">
-                                            <h5>DR. Khan Amir Chowdhury</h5>
+                                            <h5>DR. Amira Chowdhury</h5>
                                             <p>(Chairman & Founder)</p>
                                         </div>
                                     </Col>
