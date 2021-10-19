@@ -11,7 +11,7 @@
 
 .custom-banner-title{
   font-size: 60px;
-  font-weight: 900;
+  font-weight: 700;
 }
 
 .custom-banner-btn{
@@ -50,4 +50,21 @@
   color: #253750;
   font-weight: 600;
   padding: 3px 5px;
+}
+.customer-img{
+  height: 150px;
+  width: 150;
+}
+#testimonials{
+  background:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)100%), url(../../images/testimonials.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+  box-sizing: border-box;
+}
+.customer-text{
+  color: rgba(196, 233, 233, 0.938);
+}
+.customer-title{
+  color: rgb(236, 245, 245);
 }

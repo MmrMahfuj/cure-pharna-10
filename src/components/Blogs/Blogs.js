@@ -14,7 +14,7 @@ const Blogs = () => {
     return (
         <>
             <Container className="mt-5">
-                <h2 className="services-title text-start">Our Spacial <span id="logo">Blogs</span></h2>
+                <h2 className="services-title text-start">Our Spacial <span id="">Blogs</span></h2>
                 <Row>
                     {
                         blogs.map(blog => <Blog key={blog.id} blog={blog}></Blog>)

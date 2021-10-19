@@ -16,7 +16,7 @@ const Service = (props) => {
                         <h5 className="my-2 services-title">{title}</h5>
                         <p>{des.slice(0, 80)}</p>
 
-                        <div className="d-flex justify-content-end">
+                        <div className="d-flex justify-content-center">
                             <Link style={{ textDecoration: 'none', }}
 
                                 to={`/Details/${id}`}>

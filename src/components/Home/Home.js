@@ -7,6 +7,9 @@ import orderImg1 from '../../images/order-1.jpg';
 import orderImg2 from '../../images/order-2.jpg';
 import orderImg3 from '../../images/order-3.jpg';
 import experienceImg from '../../images/experience.jpg';
+import customer1 from '../../images/customer-1.jpg';
+import customer2 from '../../images/customer-2.jpg';
+import customer3 from '../../images/customer-3.jpg';
 import './Home.css';
 
 const Home = () => {
@@ -136,6 +139,51 @@ const Home = () => {
                             </div>
                         </Col>
                     </Row>
+                </Container>
+            </div>
+            <div id="testimonials">
+                <Container className="mt-5 p-5">
+                    <div className="m-5">
+                        <h1 className="mb-5 text-white">Client Testimonials</h1>
+                        <Row>
+                            <Col md={4}>
+                                <div className="border mt-3">
+                                    <div>
+                                        <img src={customer1} className="rounded-circle my-4 customer-img" alt="" />
+                                        <p className="mt-3 customer-text">
+                                            Hasibul Robin, He is a Rich man et ea rebum stet clita kasd gubergren noa takimata sanctus est.</p>
+                                        <h4 className="customer-title">Hasibul Robin</h4>
+                                        <p className="customer-text">Customer</p>
+                                    </div>
+
+                                </div>
+                            </Col>
+                            <Col md={4}>
+                                <div className="border mt-3">
+                                    <div>
+                                        <img src={customer2} className="rounded-circle my-4 customer-img" alt="" />
+                                        <p className="mt-3 customer-text">
+                                            Mohammad Amir, he is a business man et ea rebum stet clita kasd gubergren noa takimata sanctus est.</p>
+                                        <h4 className="customer-title">Mohammad Amir</h4>
+                                        <p className="customer-text">Customer</p>
+                                    </div>
+
+                                </div>
+                            </Col>
+                            <Col md={4}>
+                                <div className="border mt-3">
+                                    <div>
+                                        <img src={customer3} className="rounded-circle my-4 customer-img" alt="" />
+                                        <p className="mt-3 customer-text">
+                                            This is Lamiya Akter et justo dolores et ea rebum stet clita kasd gubergren noa takimata sanctus est.</p>
+                                        <h4 className="customer-title">Lamiya Akter</h4>
+                                        <p className="customer-text">Customer</p>
+                                    </div>
+
+                                </div>
+                            </Col>
+                        </Row>
+                    </div>
                 </Container>
             </div>
         </div>
