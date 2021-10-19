@@ -35,3 +35,19 @@
   color: #253750;
   font-weight: 700;
 }
+
+.order-background{
+  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../../images/order-background.jpg);
+}
+.question-img{
+  width: 50px;
+  height: 50px;
+}
+.order-img{
+  height: 160px;
+}
+.order-step{
+  color: #253750;
+  font-weight: 600;
+  padding: 3px 5px;
+}
