@@ -2,7 +2,7 @@ import React from 'react';
 import { Button, Container, Nav, Navbar } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import './Header.css';
-import logo from '../../images/logo.svg';
+import logo from '../../images/logo.png';
 import useAuth from '../hooks/useAuth';
 
 const Header = () => {
@@ -11,7 +11,7 @@ const Header = () => {
         <>
             <Navbar expand="lg" className="mb-3">
                 <Container>
-                    <Navbar.Brand as={Link} className="custom-title fw-bold fs-2" as={Link} to="/home">CURE <span id="logo">PHARMA</span> </Navbar.Brand>
+                    <Navbar.Brand className="custom-title fw-bold fs-2" as={Link} to="/home"><img src={logo} className="logo-img" alt="" /> CURE <span id="logo">PHARMA</span> </Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="ms-auto">

@@ -25,7 +25,7 @@ const Details = () => {
                         <h4 className="my-3">{currentServices.title}</h4>
                         <p className="custom-about-para">{currentServices.des}</p>
                         <div>
-                            <Button className="regular-custom-btn">Subscription Now</Button>
+                            <Button className="regular-custom-btn w-50">{currentServices.btn}</Button>
                         </div>
                     </div>
                 </Container>

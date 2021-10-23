@@ -1,6 +1,7 @@
 import React from 'react';
 import { Col, Nav, Row } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
+import logo from '../../images/logo.png';
 import './Footer.css';
 
 const Footer = () => {
@@ -11,7 +12,7 @@ const Footer = () => {
                     <Col md={4} className="">
                         <div className="custom-footer-title my-3">
                             <Link style={{ textDecoration: 'none' }} to="/home">
-                                <h2 className=" fw-bold fs-2">CURE <span id="logo">PHARMA</span></h2>
+                                <h2 className=" fw-bold fs-2"><img src={logo} className="logo-img" alt="" /> CURE <span id="logo">PHARMA</span></h2>
                             </Link>
                         </div>
                         <div className="d-flex justify-content-center">
@@ -80,7 +81,7 @@ const Footer = () => {
                 </Row>
             </div>
             <footer className="footer-main pt-2">
-                <p className="copyright-color">&copy; KIDS WORLD 2021 Made With &hearts; by Mahfuj</p>
+                <p className="copyright-color">&copy; CURE PHARMA 2021 Made With &hearts; by Mahfuj</p>
             </footer>
         </>
     );
