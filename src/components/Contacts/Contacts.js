@@ -34,6 +34,11 @@ const Contacts = () => {
                     </Col>
                 </Row>
             </Container>
+            <Container className="mb-5">
+                <div className="google-map-code">
+                    <iframe src="https://maps.google.com/maps?q=Mohadpur,%20dhaka&t=&z=13&ie=UTF8&iwloc=&output=embed" width="100%" height="500" frameborder="0" style={{ border: 0 }} allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                </div>
+            </Container>
             <Container className="pt-5">
                 <Row>
                     <Col md={6}>

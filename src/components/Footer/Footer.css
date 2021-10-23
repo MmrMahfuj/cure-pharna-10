@@ -1,12 +1,13 @@
-body{
-    /* overflow-x: hidden; */
-}
+
 .custom-footer{
     background-color: #253750;
     overflow-x: hidden;
     
 }
-.custom-footer-title{
+.logo-img-footer{
+    height: 70px;
+    width: 70px;
+    margin-right: 10px;
 }
 .footer-text{
     color: rgb(182, 176, 176);

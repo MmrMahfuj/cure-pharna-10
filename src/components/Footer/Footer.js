@@ -12,7 +12,7 @@ const Footer = () => {
                     <Col md={4} className="">
                         <div className="custom-footer-title my-3">
                             <Link style={{ textDecoration: 'none' }} to="/home">
-                                <h2 className=" fw-bold fs-2"><img src={logo} className="logo-img" alt="" /> CURE <span id="logo">PHARMA</span></h2>
+                                <h2 className=" fw-bold fs-2"><img src={logo} className="logo-img-footer" alt="" /> CURE <span id="logo">PHARMA</span></h2>
                             </Link>
                         </div>
                         <div className="d-flex justify-content-center">
